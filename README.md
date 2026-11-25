@@ -2,7 +2,7 @@
 
 这是一个**纯静态、零构建、零依赖**的极客风格个人主页模板：暗色终端视觉 + 亮色切换，内置个人简历、开源作品图文展示与联系方式，将同时部署到 **GitHub Pages** 与 **Gitee Pages**。
 
-![站点首页截图](../assets/img/site-cover.png "网站封面效果")
+![站点首页截图](assets/img/site-cover.png)
 
 ---
 
