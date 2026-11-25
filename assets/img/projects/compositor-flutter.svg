@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Compositor_flutter 项目封面示意图">
+  <defs>
+    <linearGradient id="cf-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#140b1c"/>
+      <stop offset="1" stop-color="#05080c"/>
+    </linearGradient>
+    <linearGradient id="cf-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b2a63"/>
+      <stop offset=".55" stop-color="#7a3f78"/>
+      <stop offset="1" stop-color="#c05a72"/>
+    </linearGradient>
+    <pattern id="cf-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#b388ff" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#cf-bg)"/>
+  <rect width="800" height="500" fill="url(#cf-grid)"/>
+
+  <text x="50" y="92" font-family="Consolas, monospace" font-size="14" letter-spacing="3" fill="#b388ff">// PROJECT 03</text>
+  <text x="50" y="152" font-family="Consolas, 'Cascadia Code', monospace" font-size="32" font-weight="700" fill="#f2f7fb">Compositor_flutter</text>
+  <text x="50" y="192" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="19" fill="#8a9caf">Flutter 图像编辑器 · 对标 PS</text>
+
+  <rect x="50" y="216" width="64" height="3" rx="1.5" fill="#b388ff"/>
+  <text x="50" y="252" font-family="Consolas, monospace" font-size="13" fill="#4cc9f0">Flutter · Dart · CustomPainter</text>
+  <text x="50" y="282" font-family="Consolas, monospace" font-size="13" fill="#5e7185">LAYERS · MASKS · FILTERS</text>
+  <text x="50" y="304" font-family="Consolas, monospace" font-size="13" fill="#5e7185">HISTORY · CANVAS · TOOLS</text>
+  <text x="50" y="326" font-family="Consolas, monospace" font-size="12" fill="#f472b6">WIP · ACTIVE DEVELOPMENT</text>
+
+  <g>
+    <rect x="386" y="88" width="364" height="320" rx="12" fill="#070c11" stroke="#33244a" stroke-width="1.5"/>
+
+    <circle cx="400" cy="103" r="3.5" fill="#ff5f56"/>
+    <circle cx="414" cy="103" r="3.5" fill="#ffbd2e"/>
+    <circle cx="428" cy="103" r="3.5" fill="#27c93f"/>
+    <text x="444" y="107" font-family="Consolas, monospace" font-size="9" fill="#5e7185">Compositor — untitled.psd</text>
+    <text x="738" y="107" text-anchor="end" font-family="Consolas, monospace" font-size="8" fill="#f472b6">FLUTTER</text>
+    <line x1="386" y1="118" x2="750" y2="118" stroke="#2a1e3d"/>
+
+    <rect x="386" y="118" width="34" height="290" fill="#080d13"/>
+    <line x1="420" y1="118" x2="420" y2="408" stroke="#2a1e3d"/>
+
+    <polygon points="397,132 397,146 401,142 404,148 407,146 404,140 409,140" fill="#b388ff"/>
+    <rect x="396" y="168" width="14" height="14" fill="none" stroke="#8a9caf" stroke-width="1" stroke-dasharray="3 2"/>
+    <line x1="396" y1="214" x2="410" y2="200" stroke="#8a9caf" stroke-width="1.5"/>
+    <circle cx="409" cy="201" r="2.5" fill="#8a9caf"/>
+    <text x="396" y="252" font-family="Consolas, monospace" font-size="12" fill="#8a9caf">T</text>
+    <rect x="396" y="266" width="14" height="10" rx="2" fill="#8a9caf" opacity=".7"/>
+    <circle cx="403" cy="310" r="7" fill="none" stroke="#8a9caf" stroke-width="1"/>
+    <path d="M403 303 a7 7 0 0 1 0 14 z" fill="#8a9caf" opacity=".6"/>
+
+    <rect x="420" y="118" width="236" height="290" fill="#080d16"/>
+    <rect x="428" y="128" width="220" height="180" fill="url(#cf-sky)"/>
+    <circle cx="596" cy="196" r="24" fill="#ffd166" opacity=".9"/>
+    <polygon points="428,308 500,220 566,308" fill="#1a2340"/>
+    <polygon points="520,308 590,238 648,308" fill="#242e52"/>
+    <rect x="428" y="308" width="220" height="10" fill="#0d1224"/>
+
+    <rect x="566" y="166" width="64" height="64" fill="none" stroke="#f472b6" stroke-width="1.2" stroke-dasharray="5 4"/>
+    <rect x="563" y="163" width="7" height="7" fill="#f472b6"/>
+    <rect x="626" y="163" width="7" height="7" fill="#f472b6"/>
+    <rect x="563" y="226" width="7" height="7" fill="#f472b6"/>
+    <rect x="626" y="226" width="7" height="7" fill="#f472b6"/>
+
+    <rect x="584" y="128" width="62" height="18" rx="9" fill="#120b18" stroke="#f472b6" stroke-opacity=".5"/>
+    <text x="615" y="141" text-anchor="middle" font-family="Consolas, monospace" font-size="8" fill="#f472b6">MASK</text>
+
+    <text x="428" y="336" font-family="Consolas, monospace" font-size="8" fill="#5e7185">1920 × 1080</text>
+    <text x="648" y="336" text-anchor="end" font-family="Consolas, monospace" font-size="8" fill="#5e7185">100%</text>
+    <text x="428" y="396" font-family="Consolas, monospace" font-size="8" fill="#3f5062">PNG · 8-bit · sRGB</text>
+    <text x="648" y="396" text-anchor="end" font-family="Consolas, monospace" font-size="8" fill="#3f5062">3 LAYERS</text>
+
+    <line x1="656" y1="118" x2="656" y2="408" stroke="#2a1e3d"/>
+    <text x="666" y="134" font-family="Consolas, monospace" font-size="8" letter-spacing="1" fill="#5e7185">LAYERS</text>
+
+    <rect x="660" y="144" width="86" height="26" rx="4" fill="#1a1024" stroke="#f472b6" stroke-opacity=".45"/>
+    <circle cx="670" cy="157" r="3" fill="#f472b6"/>
+    <rect x="679" y="154" width="56" height="5" rx="2.5" fill="#f472b6" opacity=".7"/>
+
+    <circle cx="670" cy="181" r="3" fill="none" stroke="#5e7185"/>
+    <rect x="679" y="178" width="48" height="5" rx="2.5" fill="#1d2735"/>
+    <circle cx="670" cy="205" r="3" fill="none" stroke="#5e7185"/>
+    <rect x="679" y="202" width="58" height="5" rx="2.5" fill="#1d2735"/>
+    <circle cx="670" cy="229" r="3" fill="none" stroke="#5e7185"/>
+    <rect x="679" y="226" width="40" height="5" rx="2.5" fill="#1d2735"/>
+    <circle cx="670" cy="253" r="3" fill="none" stroke="#5e7185"/>
+    <rect x="679" y="250" width="52" height="5" rx="2.5" fill="#1d2735"/>
+
+    <text x="666" y="290" font-family="Consolas, monospace" font-size="8" fill="#5e7185">fx</text>
+    <text x="666" y="308" font-family="Consolas, monospace" font-size="8" fill="#5e7185">8-bit</text>
+    <rect x="666" y="322" width="30" height="14" rx="3" fill="#1a1024" stroke="#33244a"/>
+    <text x="681" y="332" text-anchor="middle" font-family="Consolas, monospace" font-size="7" fill="#b388ff">RGBA</text>
+  </g>
+
+  <text x="50" y="456" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#3f5062">ILLUSTRATION · 示意图</text>
+</svg>

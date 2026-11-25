@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="SimpleVault 项目封面示意图">
+  <defs>
+    <linearGradient id="sv-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#170b10"/>
+      <stop offset="1" stop-color="#05080c"/>
+    </linearGradient>
+    <pattern id="sv-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ff6b8a" stroke-opacity=".06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#sv-bg)"/>
+  <rect width="800" height="500" fill="url(#sv-grid)"/>
+
+  <text x="50" y="92" font-family="Consolas, monospace" font-size="14" letter-spacing="3" fill="#ff6b8a">// PROJECT 06</text>
+  <text x="50" y="158" font-family="Consolas, 'Cascadia Code', monospace" font-size="44" font-weight="700" fill="#f2f7fb">SimpleVault</text>
+  <text x="50" y="198" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="19" fill="#8a9caf">本地双因素密码管理器</text>
+
+  <rect x="50" y="222" width="64" height="3" rx="1.5" fill="#ff6b8a"/>
+  <text x="50" y="258" font-family="Consolas, monospace" font-size="13" fill="#4cc9f0">Python · PySide6 · Kivy · SQLite</text>
+  <text x="50" y="288" font-family="Consolas, monospace" font-size="13" fill="#5e7185">MASTER PASSWORD + KEYFILE</text>
+  <text x="50" y="310" font-family="Consolas, monospace" font-size="13" fill="#5e7185">AES ENCRYPTED · OFFLINE ONLY</text>
+  <text x="50" y="332" font-family="Consolas, monospace" font-size="13" fill="#5e7185">WIN ⟷ ANDROID SHARED CORE</text>
+
+  <g>
+    <rect x="386" y="96" width="364" height="312" rx="12" fill="#070c11" stroke="#3a2430" stroke-width="1.5"/>
+
+    <text x="476" y="126" text-anchor="middle" font-family="Consolas, monospace" font-size="9" letter-spacing="2" fill="#ff6b8a">2FA VAULT</text>
+    <path d="M476 138 L510 152 V196 C510 222 494 240 476 250 C458 240 442 222 442 196 V152 Z" fill="#120b10" stroke="#ff6b8a" stroke-width="1.5"/>
+    <circle cx="476" cy="188" r="7" fill="#f7c948"/>
+    <rect x="473" y="192" width="6" height="16" rx="3" fill="#f7c948"/>
+    <text x="476" y="270" text-anchor="middle" font-family="Consolas, monospace" font-size="8" fill="#5e7185">master + keyfile</text>
+
+    <rect x="412" y="282" width="128" height="24" rx="6" fill="#0a0f14" stroke="#2a2230"/>
+    <circle cx="426" cy="294" r="2.5" fill="#8a9caf"/>
+    <circle cx="440" cy="294" r="2.5" fill="#8a9caf"/>
+    <circle cx="454" cy="294" r="2.5" fill="#8a9caf"/>
+    <circle cx="468" cy="294" r="2.5" fill="#8a9caf"/>
+    <circle cx="482" cy="294" r="2.5" fill="#8a9caf"/>
+    <circle cx="496" cy="294" r="2.5" fill="#8a9caf"/>
+
+    <rect x="412" y="314" width="128" height="24" rx="6" fill="#0a0f14" stroke="#2a2230"/>
+    <circle cx="427" cy="326" r="4" fill="none" stroke="#f7c948" stroke-width="1.5"/>
+    <line x1="431" y1="326" x2="442" y2="326" stroke="#f7c948" stroke-width="1.5"/>
+    <line x1="438" y1="326" x2="438" y2="330" stroke="#f7c948" stroke-width="1.5"/>
+    <line x1="442" y1="326" x2="442" y2="331" stroke="#f7c948" stroke-width="1.5"/>
+    <text x="448" y="330" font-family="Consolas, monospace" font-size="8" fill="#f7c948">vault.key</text>
+
+    <rect x="412" y="344" width="50" height="18" rx="9" fill="#0a0f14" stroke="#2a2230"/>
+    <text x="437" y="357" text-anchor="middle" font-family="Consolas, monospace" font-size="8" fill="#4cc9f0">WIN</text>
+    <text x="472" y="358" text-anchor="middle" font-family="Consolas, monospace" font-size="9" fill="#5e7185">⟷</text>
+    <rect x="484" y="344" width="70" height="18" rx="9" fill="#0a0f14" stroke="#2a2230"/>
+    <text x="519" y="357" text-anchor="middle" font-family="Consolas, monospace" font-size="7" fill="#38f2a5">ANDROID</text>
+
+    <text x="476" y="380" text-anchor="middle" font-family="Consolas, monospace" font-size="8" fill="#5e7185">NO CLOUD · OFFLINE ONLY</text>
+    <text x="476" y="394" text-anchor="middle" font-family="Consolas, monospace" font-size="7" fill="#3f5062">portable vault file</text>
+
+    <line x1="566" y1="108" x2="566" y2="396" stroke="#241820"/>
+
+    <text x="584" y="124" font-family="Consolas, monospace" font-size="9" letter-spacing="1" fill="#8a9caf">vault.db</text>
+    <text x="730" y="124" text-anchor="end" font-family="Consolas, monospace" font-size="8" fill="#5e7185">SQLite</text>
+    <line x1="578" y1="132" x2="730" y2="132" stroke="#241820"/>
+
+    <text x="584" y="148" font-family="Consolas, monospace" font-size="7" fill="#3f5062">id</text>
+    <text x="602" y="148" font-family="Consolas, monospace" font-size="7" fill="#3f5062">site</text>
+    <text x="646" y="148" font-family="Consolas, monospace" font-size="7" fill="#3f5062">secret</text>
+
+    <rect x="578" y="158" width="152" height="22" fill="#0a0f14"/>
+    <text x="584" y="173" font-family="Consolas, monospace" font-size="8" fill="#5e7185">01</text>
+    <text x="602" y="173" font-family="Consolas, monospace" font-size="8" fill="#8a9caf">gh</text>
+    <text x="646" y="173" font-family="Consolas, monospace" font-size="8" fill="#f7c948">9f3a…c21e</text>
+
+    <text x="584" y="197" font-family="Consolas, monospace" font-size="8" fill="#5e7185">02</text>
+    <text x="602" y="197" font-family="Consolas, monospace" font-size="8" fill="#8a9caf">mail</text>
+    <text x="646" y="197" font-family="Consolas, monospace" font-size="8" fill="#f7c948">a71b…8d40</text>
+
+    <rect x="578" y="206" width="152" height="22" fill="#0a0f14"/>
+    <text x="584" y="221" font-family="Consolas, monospace" font-size="8" fill="#5e7185">03</text>
+    <text x="602" y="221" font-family="Consolas, monospace" font-size="8" fill="#8a9caf">bank</text>
+    <text x="646" y="221" font-family="Consolas, monospace" font-size="8" fill="#f7c948">4c02…e9f1</text>
+
+    <text x="584" y="245" font-family="Consolas, monospace" font-size="8" fill="#5e7185">04</text>
+    <text x="602" y="245" font-family="Consolas, monospace" font-size="8" fill="#8a9caf">ssh</text>
+    <text x="646" y="245" font-family="Consolas, monospace" font-size="8" fill="#f7c948">77de…10ab</text>
+
+    <rect x="578" y="254" width="152" height="22" fill="#0a0f14"/>
+    <text x="584" y="269" font-family="Consolas, monospace" font-size="8" fill="#5e7185">05</text>
+    <text x="602" y="269" font-family="Consolas, monospace" font-size="8" fill="#8a9caf">db</text>
+    <text x="646" y="269" font-family="Consolas, monospace" font-size="8" fill="#f7c948">b3c8…55d2</text>
+
+    <rect x="578" y="292" width="152" height="28" rx="6" fill="#120b10" stroke="#ff6b8a" stroke-opacity=".45"/>
+    <text x="654" y="310" text-anchor="middle" font-family="Consolas, monospace" font-size="7.5" fill="#ff6b8a">AES-256 · ciphertext only</text>
+
+    <text x="654" y="338" text-anchor="middle" font-family="Consolas, monospace" font-size="7" fill="#5e7185">no plaintext on disk</text>
+    <text x="654" y="356" text-anchor="middle" font-family="Consolas, monospace" font-size="7" fill="#5e7185">same core · PySide6 / Kivy</text>
+  </g>
+
+  <text x="50" y="456" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#3f5062">ILLUSTRATION · 示意图</text>
+</svg>

@@ -1,0 +1,166 @@
+/* ==========================================================================
+   print.css — 简历打印 / 导出 PDF
+   仅在 resume.html 中通过 media="print" 引入
+   ========================================================================== */
+
+@page {
+  size: A4 portrait;
+  margin: 12mm;
+}
+
+@media print {
+  :root {
+    --bg: #ffffff;
+    --text: #111111;
+    --text-strong: #000000;
+    --muted: #333333;
+    --dim: #555555;
+    --line: #cccccc;
+    --line-strong: #aaaaaa;
+    --accent: #0a6b45;
+    --accent-2: #0b5d73;
+    --panel-solid: #ffffff;
+  }
+
+  html {
+    font-size: 10.5pt;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #111111;
+  }
+
+  .site-header,
+  .site-footer,
+  #matrix,
+  .bg-grid,
+  .bg-glow,
+  .skip-link,
+  .page-hero,
+  .cmd,
+  .toast {
+    display: none !important;
+  }
+
+  .section {
+    padding: 0 !important;
+    border: 0 !important;
+  }
+
+  .container {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+  }
+
+  .resume-sheet {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: #ffffff;
+    box-shadow: none;
+  }
+
+  .resume-head {
+    padding-bottom: 14pt;
+    border-color: #bbbbbb;
+  }
+
+  .resume-head h1 {
+    font-size: 22pt;
+  }
+
+  .resume-role {
+    color: #0a6b45;
+    font-size: 9pt;
+  }
+
+  .resume-contact {
+    color: #333333;
+    font-size: 8pt;
+  }
+
+  .resume-contact a {
+    color: #333333;
+  }
+
+  .resume-summary {
+    color: #222222;
+    font-size: 9.2pt;
+  }
+
+  .resume-grid {
+    gap: 8mm;
+    margin-top: 14pt;
+  }
+
+  .resume-section h2 {
+    margin-bottom: 8pt;
+    color: #000000;
+    font-size: 8pt;
+  }
+
+  .resume-section h2::after {
+    background: #cccccc;
+  }
+
+  .resume-section + .resume-section {
+    margin-top: 14pt;
+  }
+
+  .resume-item + .resume-item {
+    margin-top: 10pt;
+    padding-top: 10pt;
+    border-color: #dddddd;
+  }
+
+  .resume-item h3 {
+    font-size: 9.6pt;
+  }
+
+  .resume-period {
+    color: #0a6b45;
+    font-size: 7.6pt;
+  }
+
+  .resume-org,
+  .resume-item ul,
+  .resume-skill-group p {
+    color: #333333;
+  }
+
+  .resume-item ul {
+    font-size: 8.4pt;
+  }
+
+  .tag-list li,
+  .resume-tags li {
+    border-color: #cccccc;
+    background: #ffffff;
+    color: #333333;
+    font-size: 7pt;
+  }
+
+  .resume-item,
+  .resume-section {
+    break-inside: avoid;
+  }
+
+  .resume-avatar {
+    width: 18mm;
+    height: 18mm;
+    border-color: #cccccc;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .resume-note {
+    display: none;
+  }
+}

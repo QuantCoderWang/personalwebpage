@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="DroidDesk_zh 项目封面示意图">
+  <defs>
+    <linearGradient id="dd-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07141c"/>
+      <stop offset="1" stop-color="#05080c"/>
+    </linearGradient>
+    <pattern id="dd-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#38bdf8" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#dd-bg)"/>
+  <rect width="800" height="500" fill="url(#dd-grid)"/>
+
+  <text x="50" y="92" font-family="Consolas, monospace" font-size="14" letter-spacing="3" fill="#38bdf8">// PROJECT 05</text>
+  <text x="50" y="156" font-family="Consolas, 'Cascadia Code', monospace" font-size="40" font-weight="700" fill="#f2f7fb">DroidDesk_zh</text>
+  <text x="50" y="196" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="19" fill="#8a9caf">DroidDesk 全面汉化版</text>
+
+  <rect x="50" y="220" width="64" height="3" rx="1.5" fill="#38bdf8"/>
+  <text x="50" y="256" font-family="Consolas, monospace" font-size="13" fill="#4cc9f0">Dart · Flutter · i18n</text>
+  <text x="50" y="286" font-family="Consolas, monospace" font-size="13" fill="#5e7185">FULL ZH-CN LOCALIZATION</text>
+  <text x="50" y="308" font-family="Consolas, monospace" font-size="13" fill="#5e7185">UPSTREAM-FRIENDLY REFACTOR</text>
+  <text x="50" y="330" font-family="Consolas, monospace" font-size="13" fill="#5e7185">INTERNATIONAL PROJECT</text>
+
+  <g>
+    <rect x="386" y="96" width="364" height="312" rx="12" fill="#070c11" stroke="#1e4050" stroke-width="1.5"/>
+    <circle cx="402" cy="111" r="3.5" fill="#ff5f56"/>
+    <circle cx="416" cy="111" r="3.5" fill="#ffbd2e"/>
+    <circle cx="430" cy="111" r="3.5" fill="#27c93f"/>
+    <text x="446" y="115" font-family="Consolas, monospace" font-size="10" fill="#8a9caf">DroidDesk_zh</text>
+
+    <rect x="640" y="102" width="90" height="18" rx="9" fill="#0a1a24" stroke="#1e4a5e"/>
+    <text x="659" y="115" text-anchor="middle" font-family="Consolas, monospace" font-size="8" fill="#5e7185">EN</text>
+    <line x1="678" y1="105" x2="678" y2="117" stroke="#1e4a5e"/>
+    <text x="700" y="115" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="9" fill="#38bdf8">中文</text>
+    <line x1="386" y1="126" x2="750" y2="126" stroke="#1e4050"/>
+
+    <rect x="406" y="138" width="96" height="78" rx="8" fill="#070c11" stroke="#22364a"/>
+    <rect x="430" y="156" width="24" height="16" rx="2" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+    <path d="M430 156 h9 l4 -4 h7" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="454" y="200" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#8a9caf">文件</text>
+
+    <rect x="514" y="138" width="96" height="78" rx="8" fill="#070c11" stroke="#22364a"/>
+    <text x="562" y="171" text-anchor="middle" font-family="Consolas, monospace" font-size="15" fill="#38bdf8">&gt;_</text>
+    <text x="562" y="200" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#8a9caf">终端</text>
+
+    <rect x="622" y="138" width="96" height="78" rx="8" fill="#070c11" stroke="#22364a"/>
+    <circle cx="670" cy="164" r="9" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="670" cy="164" r="3" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+    <g stroke="#38bdf8" stroke-width="1.5">
+      <line x1="670" y1="151" x2="670" y2="155"/>
+      <line x1="670" y1="173" x2="670" y2="177"/>
+      <line x1="657" y1="164" x2="661" y2="164"/>
+      <line x1="679" y1="164" x2="683" y2="164"/>
+      <line x1="661" y1="155" x2="664" y2="158"/>
+      <line x1="676" y1="170" x2="679" y2="173"/>
+      <line x1="661" y1="173" x2="664" y2="170"/>
+      <line x1="676" y1="158" x2="679" y2="155"/>
+    </g>
+    <text x="670" y="200" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#8a9caf">设置</text>
+
+    <rect x="406" y="228" width="96" height="78" rx="8" fill="#070c11" stroke="#22364a"/>
+    <circle cx="454" cy="254" r="10" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+    <ellipse cx="454" cy="254" rx="4" ry="10" fill="none" stroke="#38bdf8" stroke-width="1.2"/>
+    <line x1="444" y1="254" x2="464" y2="254" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="454" y="290" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#8a9caf">浏览器</text>
+
+    <rect x="514" y="228" width="96" height="78" rx="8" fill="#070c11" stroke="#22364a"/>
+    <text x="562" y="261" text-anchor="middle" font-family="Consolas, monospace" font-size="14" fill="#38bdf8">&lt;/&gt;</text>
+    <text x="562" y="290" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#8a9caf">编辑器</text>
+
+    <rect x="622" y="228" width="96" height="78" rx="8" fill="#070c11" stroke="#22364a"/>
+    <rect x="660" y="248" width="20" height="14" rx="2" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+    <path d="M665 248 c0 -6 10 -6 10 0" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="670" y="290" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="10" fill="#8a9caf">应用商店</text>
+
+    <line x1="406" y1="320" x2="730" y2="320" stroke="#1e4050"/>
+    <rect x="406" y="334" width="170" height="6" rx="3" fill="#16232e"/>
+    <rect x="406" y="334" width="170" height="6" rx="3" fill="#38bdf8"/>
+    <text x="588" y="341" font-family="Consolas, monospace" font-size="9" fill="#38bdf8">zh-CN · 100%</text>
+    <text x="406" y="364" font-family="Consolas, monospace" font-size="9" fill="#5e7185">UPSTREAM-FRIENDLY i18n</text>
+    <text x="730" y="364" text-anchor="end" font-family="Consolas, monospace" font-size="8" fill="#3f5062">DART · FLUTTER</text>
+  </g>
+
+  <text x="50" y="456" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#3f5062">ILLUSTRATION · 示意图</text>
+</svg>

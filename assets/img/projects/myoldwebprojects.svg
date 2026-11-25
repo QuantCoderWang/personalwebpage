@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="myoldwebprojects 项目封面示意图">
+  <defs>
+    <linearGradient id="mw-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081120"/>
+      <stop offset="1" stop-color="#05080c"/>
+    </linearGradient>
+    <pattern id="mw-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#5b9dff" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#mw-bg)"/>
+  <rect width="800" height="500" fill="url(#mw-grid)"/>
+
+  <text x="50" y="92" font-family="Consolas, monospace" font-size="14" letter-spacing="3" fill="#5b9dff">// PROJECT 02</text>
+  <text x="50" y="156" font-family="Consolas, 'Cascadia Code', monospace" font-size="36" font-weight="700" fill="#f2f7fb">myoldwebprojects</text>
+  <text x="50" y="196" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="19" fill="#8a9caf">Django 多系统整合门户</text>
+
+  <rect x="50" y="220" width="64" height="3" rx="1.5" fill="#5b9dff"/>
+  <text x="50" y="256" font-family="Consolas, monospace" font-size="13" fill="#4cc9f0">Python · Django · MySQL · Bootstrap</text>
+  <text x="50" y="286" font-family="Consolas, monospace" font-size="13" fill="#5e7185">7 BUSINESS SYSTEMS · ONE PORTAL</text>
+  <text x="50" y="308" font-family="Consolas, monospace" font-size="13" fill="#5e7185">SHARED AUTH · RBAC · REPORTS</text>
+  <text x="50" y="330" font-family="Consolas, monospace" font-size="13" fill="#5e7185">SERVER-RENDERED · MODULAR APPS</text>
+
+  <g>
+    <rect x="386" y="96" width="364" height="312" rx="12" fill="#070c11" stroke="#1e3550" stroke-width="1.5"/>
+    <circle cx="402" cy="109" r="3.5" fill="#ff5f56"/>
+    <circle cx="416" cy="109" r="3.5" fill="#ffbd2e"/>
+    <circle cx="430" cy="109" r="3.5" fill="#27c93f"/>
+    <rect x="446" y="101" width="170" height="16" rx="8" fill="#0a1220" stroke="#1b2c40"/>
+    <text x="456" y="112" font-family="Consolas, monospace" font-size="8" fill="#5e7185">portal.local / dashboard</text>
+    <text x="730" y="113" text-anchor="end" font-family="Consolas, monospace" font-size="9" fill="#5b9dff">DJANGO</text>
+    <line x1="386" y1="124" x2="750" y2="124" stroke="#1b2c40"/>
+
+    <g>
+      <rect x="406" y="136" width="72" height="82" rx="8" fill="#070c11" stroke="#22364a"/>
+      <circle cx="442" cy="164" r="11" fill="none" stroke="#5b9dff" stroke-width="1.5"/>
+      <circle cx="442" cy="164" r="3" fill="none" stroke="#5b9dff" stroke-width="1.5"/>
+      <line x1="442" y1="167" x2="442" y2="175" stroke="#5b9dff"/>
+      <line x1="439" y1="164" x2="431" y2="161" stroke="#5b9dff"/>
+      <line x1="445" y1="164" x2="453" y2="161" stroke="#5b9dff"/>
+      <text x="442" y="202" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="9" fill="#8a9caf">驾培评估</text>
+
+      <rect x="486" y="136" width="72" height="82" rx="8" fill="#070c11" stroke="#22364a"/>
+      <rect x="513" y="156" width="26" height="18" rx="2" fill="none" stroke="#5b9dff" stroke-width="1.5"/>
+      <path d="M513 156 h10 l4 -4 h8" fill="none" stroke="#5b9dff" stroke-width="1.5"/>
+      <text x="522" y="202" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="9" fill="#8a9caf">档案 CAS</text>
+
+      <rect x="566" y="136" width="72" height="82" rx="8" fill="#070c11" stroke="#22364a"/>
+      <rect x="578" y="168" width="6" height="12" fill="#5b9dff"/>
+      <rect x="588" y="160" width="6" height="20" fill="#5b9dff"/>
+      <rect x="598" y="152" width="6" height="28" fill="#5b9dff"/>
+      <text x="602" y="202" text-anchor="middle" font-family="Consolas, monospace" font-size="9" fill="#8a9caf">MIS</text>
+
+      <rect x="646" y="136" width="72" height="82" rx="8" fill="#070c11" stroke="#22364a"/>
+      <polyline points="658,176 668,164 678,169 688,154 698,158 706,148" fill="none" stroke="#4cc9f0" stroke-width="1.5" stroke-linejoin="round"/>
+      <circle cx="706" cy="148" r="2.5" fill="#4cc9f0"/>
+      <text x="682" y="202" text-anchor="middle" font-family="Consolas, monospace" font-size="9" fill="#8a9caf">DAS</text>
+
+      <rect x="406" y="230" width="72" height="82" rx="8" fill="#070c11" stroke="#22364a"/>
+      <rect x="428" y="252" width="22" height="28" fill="none" stroke="#5b9dff" stroke-width="1.5"/>
+      <rect x="433" y="258" width="4" height="4" fill="#5b9dff"/>
+      <rect x="441" y="258" width="4" height="4" fill="#5b9dff"/>
+      <rect x="433" y="266" width="4" height="4" fill="#5b9dff"/>
+      <rect x="441" y="266" width="4" height="4" fill="#5b9dff"/>
+      <text x="442" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="9" fill="#8a9caf">物业管理</text>
+
+      <rect x="486" y="230" width="72" height="82" rx="8" fill="#070c11" stroke="#22364a"/>
+      <circle cx="522" cy="258" r="6" fill="none" stroke="#5b9dff" stroke-width="1.5"/>
+      <path d="M512 280 c0 -8 4.5 -12 10 -12 s10 4 10 12" fill="none" stroke="#5b9dff" stroke-width="1.5"/>
+      <text x="522" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="9" fill="#8a9caf">人力行政</text>
+
+      <rect x="566" y="230" width="72" height="82" rx="8" fill="#070c11" stroke="#22364a"/>
+      <polygon points="602,250 618,257 602,264 586,257" fill="none" stroke="#5b9dff" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M594 260 v5 c0 3 16 3 16 0 v-5" fill="none" stroke="#5b9dff" stroke-width="1.5"/>
+      <line x1="617" y1="258" x2="617" y2="267" stroke="#5b9dff" stroke-width="1.5"/>
+      <text x="602" y="296" text-anchor="middle" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="9" fill="#8a9caf">TT 学堂</text>
+
+      <rect x="646" y="230" width="72" height="82" rx="8" fill="#07130f" stroke="#1f3a2d"/>
+      <line x1="682" y1="258" x2="682" y2="282" stroke="#38f2a5" stroke-width="1.5"/>
+      <line x1="670" y1="270" x2="694" y2="270" stroke="#38f2a5" stroke-width="1.5"/>
+      <text x="682" y="296" text-anchor="middle" font-family="Consolas, monospace" font-size="9" fill="#38f2a5">MORE</text>
+    </g>
+
+    <line x1="406" y1="326" x2="730" y2="326" stroke="#1b2c40"/>
+    <text x="406" y="348" font-family="Consolas, monospace" font-size="9" fill="#5e7185">ONE LOGIN · SHARED AUTH · MODULAR APPS</text>
+    <text x="406" y="368" font-family="Consolas, monospace" font-size="9" fill="#5e7185">RBAC · REPORTS · WORKFLOWS</text>
+    <circle cx="694" cy="344" r="3" fill="#38f2a5"/>
+    <text x="730" y="348" text-anchor="end" font-family="Consolas, monospace" font-size="8" fill="#38f2a5">ONLINE</text>
+  </g>
+
+  <text x="50" y="456" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#3f5062">ILLUSTRATION · 示意图</text>
+</svg>
